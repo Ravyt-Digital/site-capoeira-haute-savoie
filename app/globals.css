@@ -40,7 +40,7 @@
 @media(max-width:850px){.hero-art .sun-disc{width:30vw;height:30vw}.course-photo{height:220px}.mestre-art>img{min-height:480px}.culture-photo,.association-life,.culture-photo>img,.association-life>img{min-height:520px;height:520px}.photo-hero{height:66vh;min-height:560px}.photo-hero>img{object-position:center}.mestre-hero{grid-template-columns:1fr;min-height:auto}.mestre-hero>div{padding:16vw 6vw 8vw}.mestre-hero>img{height:56vw;min-height:390px;clip-path:none}.mestre-stat{left:6vw;bottom:6vw}}
 
 /* Franco-Brazilian identity */
-:root{--cream:#FFFFFF;--ink:#002776;--forest:#009440;--clay:#EF4135;--sun:#FFCB00;--white:#FFFFFF;--line:rgba(0,39,118,.16);--fr-blue:#0055A4;--br-blue:#302681}
+:root{--cream:#FFFFFF;--ink:#2753A9;--forest:#357511;--clay:#2753A9;--sun:#F7BF0A;--white:#FFFFFF;--line:rgba(39,83,169,.18);--fr-blue:#2753A9;--br-blue:#2753A9}
 body{background:#fff;color:var(--ink)}
 .site-header{background:rgba(255,255,255,.97);border-bottom-color:rgba(0,85,164,.18)}
 .site-header:before{content:"";position:absolute;left:0;right:0;top:0;height:4px;background:linear-gradient(90deg,var(--forest) 0 25%,var(--sun) 25% 42%,var(--fr-blue) 42% 68%,#fff 68% 82%,var(--clay) 82% 100%)}
@@ -231,3 +231,34 @@ footer{background:#001B52;color:#fff;border-top:8px solid var(--forest)}
 .footer-credit{display:block;color:#fff;font-size:11px;letter-spacing:.04em}
 .footer-credit a{font-weight:700;text-decoration:underline;text-underline-offset:3px}
 @media(max-width:850px){.footer-bottom{display:grid;grid-template-columns:1fr;justify-items:center;text-align:center}.footer-bottom:after{display:none}.footer-bottom>.footer-center{grid-column:1}.footer-links{justify-content:center}}
+
+/* 2026 palette — green, blue and yellow */
+.site-header:before{background:linear-gradient(90deg,var(--forest) 0 34%,var(--sun) 34% 66%,var(--fr-blue) 66% 100%)}
+.hero-copy{background:radial-gradient(circle at 8% 10%,rgba(247,191,10,.26),transparent 28%),linear-gradient(145deg,#fff 64%,rgba(53,117,17,.09))}
+.hero-art:after{background:linear-gradient(180deg,rgba(39,83,169,.04) 34%,rgba(39,83,169,.88) 100%)}
+.button.primary{background:var(--forest);color:#fff;box-shadow:5px 5px 0 var(--sun)}
+.button.dark{background:var(--fr-blue);color:#fff;box-shadow:5px 5px 0 var(--sun)}
+.values article:nth-child(2) span,.values article:nth-child(2) h3{color:var(--fr-blue)}
+.values article:nth-child(3) span,.values article:nth-child(3) h3{color:var(--sun)}
+.values article:nth-child(4) span,.values article:nth-child(4) h3{color:var(--forest)}
+.courses{background:linear-gradient(135deg,var(--fr-blue) 0 58%,#1f468f 100%)}
+.course-card.forest{background:var(--forest)}
+.course-card.clay{background:var(--fr-blue)}
+.course-card.sun{background:var(--sun);color:#173d13}
+.mestre{background:linear-gradient(135deg,rgba(247,191,10,.13),#fff 55%,rgba(53,117,17,.12))}
+.cta{background:linear-gradient(130deg,var(--forest),#285e0d);color:#fff}
+.cta:before{background:var(--sun)}
+footer{background:#173b0d;border-top-color:var(--sun)}
+.legal-hero{background:linear-gradient(130deg,var(--forest),var(--fr-blue))}
+.culture-photo:after,.association-life:after{background:linear-gradient(90deg,rgba(39,83,169,.9),rgba(53,117,17,.35) 68%,transparent)}
+.photo-hero:after{background:linear-gradient(90deg,rgba(39,83,169,.92),rgba(53,117,17,.22) 67%)}
+.mestre-hero{background:linear-gradient(135deg,var(--fr-blue),var(--forest))}
+.agenda{background:linear-gradient(180deg,#fff 0%,rgba(247,191,10,.11) 100%)}
+.agenda-card{border-color:rgba(39,83,169,.18);box-shadow:14px 14px 0 rgba(247,191,10,.42)}
+.agenda-label,.event-date{background:var(--sun);color:#173d13}
+.agenda-date{background:var(--fr-blue);color:#fff;border-color:var(--sun)}
+.event-content{background:linear-gradient(145deg,#fff 72%,rgba(53,117,17,.1))}
+.event-close{background:var(--sun);color:#173d13}
+.wa-float{background:var(--forest);color:#fff;box-shadow:0 10px 30px rgba(53,117,17,.35)}
+.wa-panel>a>span{background:var(--forest)}
+.cookie:before{background:linear-gradient(90deg,var(--forest),var(--sun),var(--fr-blue))}
