@@ -8,8 +8,8 @@ export const metadata: Metadata = {
   description: "Capoeira franco-brésilienne pour enfants, adolescents et adultes à Thyez, Marnaz et Saint-Jeoire avec Mestre Cobra Preta. Deux cours d’essai offerts.",
   keywords: ["capoeira Haute-Savoie", "capoeira franco-brésilienne", "cours capoeira Thyez", "capoeira Marnaz", "capoeira Saint-Jeoire", "Mestre Cobra Preta", "Guerreiros dos Campeões"],
   alternates: { canonical: "/" },
-  openGraph: { type: "website", locale: "fr_FR", siteName: "Capoeira Haute-Savoie", title: "L’énergie du Brésil au cœur des Alpes", description: "Une communauté franco-brésilienne à Thyez, Marnaz et Saint-Jeoire.", images: [{url:"/og-franco-brasil.png",width:1731,height:909,alt:"Capoeira Haute-Savoie — L’énergie du Brésil au cœur des Alpes"}] },
-  twitter: { card: "summary_large_image", title: "Capoeira Haute-Savoie", description: "Une capoeira franco-brésilienne au cœur des Alpes.", images:["/og-franco-brasil.png"] },
+  openGraph: { type: "website", locale: "fr_FR", siteName: "Capoeira Haute-Savoie", title: "L’énergie du Brésil au cœur des Alpes", description: "Une communauté franco-brésilienne à Thyez, Marnaz et Saint-Jeoire.", images: [{url:"/og-franco-brasil.webp",width:1731,height:909,alt:"Capoeira Haute-Savoie — L’énergie du Brésil au cœur des Alpes"}] },
+  twitter: { card: "summary_large_image", title: "Capoeira Haute-Savoie", description: "Une capoeira franco-brésilienne au cœur des Alpes.", images:["/og-franco-brasil.webp"] },
   icons: {
     icon: [
       { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },

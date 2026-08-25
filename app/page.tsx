@@ -1,5 +1,6 @@
 import Link from "next/link";
 import HeroSlider from "./hero-slider";
+import TrialForm from "./trial-form";
 
 const courses = [
   { city: "Marnaz", day: "Lundi", time: "18h00 — 19h30", place: "La Pyramide", address: "409 avenue du Mont-Blanc · 74460 Marnaz", color: "sun", image: "/photos/cours-echauffement-bois.webp" },
@@ -111,6 +112,7 @@ export default function Home() {
 
       <section className="culture-photo"><img src="/photos/instruments-capoeira.webp" alt="Berimbaus, pandeiro et atabaque, instruments traditionnels de la capoeira" loading="lazy"/><div><p className="eyebrow light">La musique guide le jeu</p><h2>Écouter.<br/>Répondre.<br/><em>Jouer.</em></h2></div></section>
 
+      <TrialForm />
       <section className="cta section"><p className="eyebrow light">Prêt à entrer dans la roda ?</p><h2>Votre premier mouvement<br/>commence <em>ici.</em></h2><p>Deux cours d’essai offerts. Écrivez-nous sur WhatsApp, choisissez votre ville et venez simplement comme vous êtes.</p><button className="button white" data-open-whatsapp>Choisir mon contact WhatsApp <span>↗</span></button></section>
     </main>
   </>;
